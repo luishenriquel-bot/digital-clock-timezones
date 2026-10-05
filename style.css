@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock - Time Zones</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>World Clock</h1>
+
+      <div class="clock-grid">
+        <div class="clock-card">
+          <h2>UTC</h2>
+          <div id="utc" class="time">--:--:--</div>
+          <div class="date" id="utc-date">--/--/----</div>
+        </div>
+
+        <div class="clock-card">
+          <h2>New York</h2>
+          <div id="new-york" class="time">--:--:--</div>
+          <div class="date" id="new-york-date">--/--/----</div>
+        </div>
+
+        <div class="clock-card">
+          <h2>London</h2>
+          <div id="london" class="time">--:--:--</div>
+          <div class="date" id="london-date">--/--/----</div>
+        </div>
+
+        <div class="clock-card">
+          <h2>São Paulo</h2>
+          <div id="sao-paulo" class="time">--:--:--</div>
+          <div class="date" id="sao-paulo-date">--/--/----</div>
+        </div>
+
+        <div class="clock-card">
+          <h2>Tokyo</h2>
+          <div id="tokyo" class="time">--:--:--</div>
+          <div class="date" id="tokyo-date">--/--/----</div>
+        </div>
+
+        <div class="clock-card">
+          <h2>Sydney</h2>
+          <div id="sydney" class="time">--:--:--</div>
+          <div class="date" id="sydney-date">--/--/----</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
